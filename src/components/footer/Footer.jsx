@@ -26,6 +26,9 @@ import './footer.css';
 const Footer = () => {
 	return (
 		<div className="footer">
+			<h4 className="footer__header">
+				<span>@FOLLOW US ON INSTAGRAM</span>
+			</h4>
 			<div className="footer__first-item">
 				<div className="footer__first-item_img">
 					<img src={Asset11} alt="" srcset="" />
@@ -127,9 +130,11 @@ const Footer = () => {
 					</li>
 				</ul>
 			</div>
-			<ul className="footer__third-item">
-				<li>Copyright &cpoy; 2021.frooto</li>
-			</ul>
+			<div className="footer__third-item">
+				<ul>
+					<li>Copyright &copy; 2021.frooto</li>
+				</ul>
+			</div>
 		</div>
 	);
 };
