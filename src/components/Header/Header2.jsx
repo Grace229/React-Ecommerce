@@ -6,7 +6,8 @@ import { LocalMallOutlined } from '@material-ui/icons';
 
 const Header2 = () => {
     return (
-        <div className="header2">
+        <div className="container">
+            <div className="header2">
             <div className="header2__left">
                 <h1>Frotoo</h1>
             </div>
@@ -31,6 +32,7 @@ const Header2 = () => {
                     <LocalMallOutlined className="header2__right--bag"/>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
