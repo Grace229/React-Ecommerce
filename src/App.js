@@ -21,7 +21,7 @@ const App = () => {
 			<Pagesix />
 			<PageSeven />
 			<Footer />
-			<Product />
+			{/* <Product /> */}
 		</>
 	);
 };
