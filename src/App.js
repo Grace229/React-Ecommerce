@@ -8,6 +8,7 @@ import Header2 from "./components/Header/Header2";
 import Hero from "./components/Hero/Hero";
 import Testimonial from "./testimonial/Testimonial";
 import Trending from "./Trending/Trending";
+import Product from './components/Product/Product';
 
 const App = () => {
 	return (
@@ -20,7 +21,9 @@ const App = () => {
 			<Pagesix />
 			<PageSeven />
 			<Footer />
+			<Product />
 		</>
 	);
 };
+
 export default App;
