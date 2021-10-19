@@ -18,9 +18,6 @@ import * as MdIcons from "react-icons/md";
 import * as HiIcons from "react-icons/hi";
 import * as GrIcons from "react-icons/gr";
 
-
-
-
 import './footer.css';
 
 const Footer = () => {
