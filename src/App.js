@@ -14,6 +14,7 @@ import Product from './components/Product/Product';
 const App = () => {
 	return (
 		<>
+		
 			<Header1 />
 			<Header2 />
 			<Hero />
