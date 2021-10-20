@@ -1,20 +1,31 @@
-import React from 'react'
-import './App.css'
-// import Footer from './components/footer/Footer'
-import Header1 from './components/Header/Header1'
-import Header2 from './components/Header/Header2'
-import Hero from './components/Hero/Hero'
+import React from "react";
+import "./App.css";
+import Footer from "./components/footer/Footer";
+import PageSeven from "./components/pageSeven/PageSeven";
+import Pagesix from "./components/pageSix/Pagesix";
+import Header1 from "./components/Header/Header1";
+import Header2 from "./components/Header/Header2";
+import Hero from "./components/Hero/Hero";
 import Benefits from './components/Benefit/Benefits'
+import Testimonial from "./testimonial/Testimonial";
+import Trending from "./Trending/Trending";
+import Product from './components/Product/Product';
 
 const App = () => {
-   return (
-      <div>
-         <Header1 />
-         <Header2 />
-         <Hero />
-         <Benefits />
-      </div>
-   )
-}
+	return (
+		<>
+			<Header1 />
+			<Header2 />
+			<Hero />
+			<Benefits />
+			<Trending />
+			<Testimonial />
+			<Pagesix />
+			<PageSeven />
+			<Footer />
+			<Product />
+		</>
+	);
+};
 
-export default App
+export default App;

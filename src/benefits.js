@@ -24,7 +24,7 @@ const benefits = [
     },
     {
         id: '4',
-        icon: <LocalShippingOutlined />,
+        icon: <Replay30Outlined />,
         title: '100% PAYMENT SECURE',
         details: 'We ensure secure payment with PEV'
     }

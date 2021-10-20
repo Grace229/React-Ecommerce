@@ -1,0 +1,54 @@
+.pageSeven {
+   font-family: "Poppins", sans-serif;
+}
+
+.pageSeven__header {
+   width: 100%;
+   text-align: center;
+   line-height: 0.1rem;
+   margin: 10px 0 20px;
+   padding: 1rem 0;
+}
+
+.pageSeven__header hr {
+  width: 60px;
+  margin-bottom: -1rem;
+  margin-top: 1.5rem ;
+}
+
+.pageSeven__first-item {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 5rem;
+}
+
+.pageSeven__first-item > * {
+	flex: 1 1 160px;
+	margin: 10px;
+}
+
+.first-item__content-date {
+   padding-top: 1rem;
+   font-size: smaller;
+   font-weight: bolder;
+}
+
+.first-item__content-heading {
+   padding: 0.5rem 0;
+   font-weight: bolder;
+}
+
+.first-item__content-body {
+   text-align: justify;
+   word-wrap: break-word;
+   width: 85%;
+}
+
+.pageSeven__second-item {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2rem 3rem;
+}
+.pageSeven__second-item > * {
+	flex: 1 1 80px;
+}
