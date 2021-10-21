@@ -1,7 +1,7 @@
 import React from 'react'
 import './benefit.css'
 import Benefit from '../Benefit/Benefit'
-import benefits from '../../benefits'
+import benefits from '../../components/Benefit/benefits'
 
 const Benefits = () => {
     return (
