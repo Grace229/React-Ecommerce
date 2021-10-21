@@ -7,7 +7,7 @@
 	justify-content: center;
 	text-align: center;
 	line-height: 0.1rem;
-	margin-top: 1rem;
+	margin-top: 2rem;
 	margin-bottom: 4rem;
 }
 
@@ -23,7 +23,7 @@
 .pageSeven__first-item {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 5rem;
+	padding: 0 2rem;
 }
 
 .pageSeven__first-item > * {
@@ -45,7 +45,7 @@
 .first-item__content-body {
 	text-align: justify;
 	word-wrap: break-word;
-	width: 85%;
+	max-width: 300px;
 }
 
 .pageSeven__second-item {
