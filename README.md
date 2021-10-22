@@ -1,2 +1,2 @@
 # E-commerce with Reactjs 
-## WAAW Foundation
+## WAAW Foundation.
