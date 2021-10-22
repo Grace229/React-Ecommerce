@@ -11,7 +11,7 @@ import Arrivals from "./components/Arrival/Arrivals.jsx";
 import Categories from "./components/Category/Categories.jsx";
 import Testimonial from "./testimonial/Testimonial";
 import Trending from "./Trending/Trending";
-// import Product from './components/Product/Product';
+import Product from './components/Product/Product';
 import Recipe from "./components/recipe/Recipe";
 
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
 			<Testimonial /> 
 			<Pagesix />
 			<PageSeven /> 
-			{/* <Product /> */}
+			<Product />
 			<Footer />
 		</>
 	);
