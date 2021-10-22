@@ -5,11 +5,11 @@ import Asset13 from "../../images/asset13.png";
 import Asset14 from "../../images/asset14.png";
 import Asset15 from "../../images/asset15.png";
 import Asset16 from "../../images/asset16.png";
-import Visa from "../../images/visa.png"
-import Mastercard from "../../images/master-card.png"
-import Unionpay from "../../images/union-pay.png"
-import Discover from "../../images/discover.png"
-import Giro from "../../images/giro-pay.png"
+import Visa from "../../images/visa.png";
+import Mastercard from "../../images/master-card.png";
+import Unionpay from "../../images/union-pay.png";
+import Discover from "../../images/discover.png";
+import Giro from "../../images/giro-pay.png";
 import Amex from "../../images/amex.png";
 
 import * as FaIcons from "react-icons/fa";
@@ -18,7 +18,7 @@ import * as MdIcons from "react-icons/md";
 import * as HiIcons from "react-icons/hi";
 import * as GrIcons from "react-icons/gr";
 
-import './footer.css';
+import "./footer.css";
 
 const Footer = () => {
 	return (
