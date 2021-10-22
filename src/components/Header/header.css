@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     width: 100vw;
+    position: fixed;
+    top: 0em;
     padding: .65em 3.2em .65em 4.2em;
     color: whitesmoke;
     font-size: 1em;
@@ -31,6 +33,7 @@
 
 .header2{
     display: flex;
+    top: 2.6em;
     width: 100vw;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +41,7 @@
     color: whitesmoke;
     padding: 0 3.2em 0 4.2em;
     position: fixed;
-    background-color: rgba(0, 0, 0, .88);
+    background-color: rgb(17, 17, 17);
 }
 .header2__left{
     display: flex;
@@ -49,7 +52,7 @@
 .header2__left > h1{
     font-style: italic;
     font-weight: 900;
-    font-size: 3em;
+    font-size: 3.5em;
     color: white;
     font-family: 'Merriweather Sans', sans-serif;
     cursor: pointer;
