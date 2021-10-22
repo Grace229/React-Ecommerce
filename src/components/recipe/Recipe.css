@@ -13,12 +13,32 @@
    grid-gap: 25px;
     margin: 0 0 0 110px;
 }
+.recipe__description{
+    position: absolute;
+    top: 876px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 350px;
+    border-radius: 0 0 150px 150px;
+    background-color: green;
+}
 /* .recipe__card{
     height: 400px;
     width: 400px;
     border: 2px solid green;
 } */
-.recipe__image{
+.recipe__image1{
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+}
+.recipe__image2{
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+}
+.recipe__image3{
     height: 400px;
     width: 350px;
     object-fit: cover;
