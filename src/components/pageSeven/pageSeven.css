@@ -22,13 +22,19 @@
 
 .pageSeven__first-item {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 	padding: 0 2rem;
 }
 
 .pageSeven__first-item > * {
-	flex: 1 1 160px;
+	flex: 0 0 200px;
 	margin: 10px;
+}
+
+.first-item__content-img img {
+	max-width: 320px;
+	height: auto;
 }
 
 .first-item__content-date {
@@ -45,14 +51,21 @@
 .first-item__content-body {
 	text-align: justify;
 	word-wrap: break-word;
-	max-width: 300px;
+	max-width: 350px;
 }
 
 .pageSeven__second-item {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
-	padding: 2rem 3rem;
+	margin: 10px;
 }
+
 .pageSeven__second-item > * {
-	flex: 1 1 80px;
+	flex: 0 0 200px;
+	margin: 10px;
+}
+
+.second-item__content-img img {
+	max-width: 250px;
 }

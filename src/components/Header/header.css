@@ -1,7 +1,7 @@
 .header1{
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     padding: .65em 3.2em .65em 4.2em;
     color: whitesmoke;
     font-size: 1em;
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 2em;
+    /* margin-right: 2em; */
 }
 .header1__right--icon{
     margin-right: .3em;
@@ -31,13 +31,13 @@
 
 .header2{
     display: flex;
-    width: 100vw;
+    /* width: 100vw; */
     justify-content: space-between;
     align-items: center;
     /* border: 1px solid rebeccapurple; */
     color: whitesmoke;
     padding: 0 3.2em 0 4.2em;
-    position: fixed;
+    /* position: sticky; */
     background-color: rgba(0, 0, 0, .88);
 }
 .header2__left{

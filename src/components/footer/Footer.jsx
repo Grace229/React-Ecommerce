@@ -51,20 +51,20 @@ const Footer = () => {
 					<li className="footer__second-item_item-header contact-header">
 						Contact us
 					</li>
-					<li className="footer__second-item_item-list">
-						<MdIcons.MdOutlineLocationOn />
-						<span className="item-list">
-							<span>Address:2168 S Archer Ave, Chicago,</span>
+					<li className="footer__second-item_item-list footer-address-list">
+						<MdIcons.MdOutlineLocationOn className="footer-icon" />
+						<span className="item-list address">
+							<span className="address1">Address: 2168 S Archer Ave, Chicago,</span>
 							<br />
-							<span className="address">United State</span>
+							<span className="address2">United State</span>
 						</span>
 					</li>
-					<li className="footer__second-item_item-list">
-						<FiIcons.FiPhoneCall />
+					<li className="footer__second-item_item-list footer-address-list">
+						<FiIcons.FiPhoneCall className="footer-icon" />
 						<span className="item-list">Phone: +(01) 312-808-1999</span>
 					</li>
-					<li className="footer__second-item_item-list">
-						<HiIcons.HiOutlineMail />
+					<li className="footer__second-item_item-list footer-address-list">
+						<HiIcons.HiOutlineMail className="footer-icon" />
 						<span className="item-list">Email: support@althothemes.com</span>
 					</li>
 					<li className="footer__second-item_item-list">

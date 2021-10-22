@@ -2,26 +2,29 @@ import React from "react";
 import "./App.css";
 import Footer from "./components/footer/Footer";
 import PageSeven from "./components/pageSeven/PageSeven";
-import Pagesix from "./components/pageSix/Pagesix";
+// import Pagesix from "./components/pageSix/Pagesix";
 import Header1 from "./components/Header/Header1";
 import Header2 from "./components/Header/Header2";
-import Hero from "./components/Hero/Hero";
-import Testimonial from "./testimonial/Testimonial";
-import Trending from "./Trending/Trending";
-import Product from './components/Product/Product';
+// import Hero from "./components/Hero/Hero";
+// import Testimonial from "./testimonial/Testimonial";
+// import Trending from "./Trending/Trending";
+// import Product from './components/Product/Product';
+// import ShoppingCart from './components/Shopping/ShoppingCart';
 
 const App = () => {
 	return (
 		<>
-			{/* <Header1 />
+			<Header1 />
 			<Header2 />
-			<Hero />
+			{/* <Hero />
 			<Trending />
-			<Testimonial /> */}
-			<Pagesix />
+			<Testimonial />
+			<Pagesix />*/}
 			<PageSeven />
+
+			{/* <Product />  */}
+			{/* <ShoppingCart /> */}
 			<Footer />
-			{/* <Product /> */}
 		</>
 	);
 };
