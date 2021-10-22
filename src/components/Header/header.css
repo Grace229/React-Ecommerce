@@ -37,7 +37,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     color: whitesmoke;
     padding: 0 3.2em 0 4.2em;
     position: fixed;

@@ -8,9 +8,11 @@ const Category = ({ image, name, newPrice, oldPrice }) => {
             <div className="category__bottom">
                 <p>{name}</p>
                 <div className="category__bottom--prices">
-                    <p className="newPrice">${newPrice}</p>
-                    <p className="oldPrice">${oldPrice}</p>
+                    <p className="price newPrice">${newPrice}</p>
+                    <p className="price oldPrice">${oldPrice}</p>
                 </div>
+  
+                
             </div>
         </div>
     )
