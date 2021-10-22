@@ -17,7 +17,8 @@ const Trending = () => {
       setValue(newValue);
     };
     return (
-        <div>
+        <div> 
+        <p className="trending__title">Trending Products</p>
            <div className={classes.root}>
       <TabContext value={value}> 
           <Tabs

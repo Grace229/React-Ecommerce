@@ -9,19 +9,21 @@ import Hero from "./components/Hero/Hero";
 import Testimonial from "./testimonial/Testimonial";
 import Trending from "./Trending/Trending";
 import Product from './components/Product/Product';
+import Recipe from "./components/recipe/Recipe";
 
 const App = () => {
 	return (
 		<>
-			{/* <Header1 />
-			<Header2 />
+			{/* <Header1 /> */}
+			{/* <Header2 /> */}
 			<Hero />
+			<Recipe />
 			<Trending />
-			<Testimonial /> */}
+			<Testimonial /> 
 			<Pagesix />
 			<PageSeven />
 			<Footer />
-			{/* <Product /> */}
+			<Product /> 
 		</>
 	);
 };
