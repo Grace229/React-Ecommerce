@@ -5,8 +5,8 @@
     /* border: 1px solid lightcoral; */
     background-image: url('../../images/hero.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 7.6em;
+    background-size: contain;
+    margin-top: 5em;
 }
 .hero_section--content{
     display: block;
