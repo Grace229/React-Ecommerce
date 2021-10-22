@@ -1,5 +1,6 @@
 .pageSeven {
 	font-family: "Poppins", sans-serif;
+	/* margin: 0 10rem 0; */
 }
 
 .pageSeven__header {
@@ -9,6 +10,7 @@
 	line-height: 0.1rem;
 	margin-top: 2rem;
 	margin-bottom: 4rem;
+	/* max-width: 350px; */
 }
 
 .pageSeven__header::after {
@@ -23,12 +25,12 @@
 .pageSeven__first-item {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 2rem;
+	padding: 0 10rem;
 }
 
 .pageSeven__first-item > * {
 	flex: 1 1 160px;
-	margin: 10px;
+	margin: 5px;
 }
 
 .first-item__content-date {
@@ -46,13 +48,16 @@
 	text-align: justify;
 	word-wrap: break-word;
 	max-width: 300px;
+	font-size: smaller;
 }
 
 .pageSeven__second-item {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 2rem 3rem;
+	padding: 0 10rem;
+	/* padding: 2rem; */
 }
 .pageSeven__second-item > * {
-	flex: 1 1 80px;
+	flex: 1 100px;
+	margin: 15px;
 }
