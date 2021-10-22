@@ -14,8 +14,8 @@ import Recipe from "./components/recipe/Recipe";
 const App = () => {
 	return (
 		<>
-			{/* <Header1 /> */}
-			{/* <Header2 /> */}
+			 <Header1 /> 
+			 <Header2 />
 			<Hero />
 			<Recipe />
 			<Trending />
