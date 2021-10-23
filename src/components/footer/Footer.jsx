@@ -11,15 +11,12 @@ import Unionpay from "../../images/union-pay.png";
 import Discover from "../../images/discover.png";
 import Giro from "../../images/giro-pay.png";
 import Amex from "../../images/amex.png";
-
 import * as FaIcons from "react-icons/fa";
 import * as FiIcons from "react-icons/fi";
 import * as MdIcons from "react-icons/md";
 import * as HiIcons from "react-icons/hi";
 import * as GrIcons from "react-icons/gr";
-
 import "./footer.css";
-
 const Footer = () => {
 	return (
 		<div className="footer">
@@ -115,21 +112,16 @@ const Footer = () => {
 					<li className="footer__second-item_icon">
 						<ul className="footer__second-item_item-icons">
 							<li>
-								<FaIcons.FaFacebookF />
+								<FaIcons.FaFacebookF className="footer-icon" />
 							</li>
 							<li>
-								<FaIcons.FaPinterestP />
+								<FaIcons.FaPinterestP className="footer-icon" />
 							</li>
 							<li>
-								<GrIcons.GrInstagram />
+								<GrIcons.GrInstagram className="footer-icon" />
 							</li>
 						</ul>
 					</li>
-				</ul>
-			</div>
-			<div className="footer__third-item">
-				<ul>
-					<li>Copyright &copy; 2021.frooto</li>
 				</ul>
 			</div>
 		</div>

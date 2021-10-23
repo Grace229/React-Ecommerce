@@ -4,9 +4,3 @@
 	margin: 0;
 	padding: 0;
 }
-
-.wrapper {
-	max-width: 1600px;
-	display: flex;
-	justify-content: center;
-}
