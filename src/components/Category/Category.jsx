@@ -1,17 +1,42 @@
 import React from "react";
 import "./category.css";
+import {
+	ArrowBackIosOutlined,
+	ArrowForwardIosOutlined,
+} from "@material-ui/icons";
+import { IconButton } from "@material-ui/core";
 
-const Category = ({ image, name, price, oldPrice }) => {
+const Category = ({ topCategories }) => {
 	return (
-		<div className="category">
-			<div className="category__top">
-				<img src={image} alt="" />
+		<div className="categories">
+			<div className="categories__header">
+				<h2>Top Categories</h2>
 			</div>
-			<div className="category__bottom">
-				<p>{name}</p>
-				<div className="category__bottom--prices">
-					<p className="price newPrice">${price}</p>
-					<p className="price oldPrice">${oldPrice}</p>
+			<div className="categories__body">
+				<div className="categories__products">
+					{topCategories.map((category) => (
+						<div className="category" key={category.id}>
+							<div className="category__top">
+								<img src={category.image} alt="" />
+							</div>
+							<div className="category__bottom">
+								<p>{category.name}</p>
+								<div className="category__bottom--prices">
+									<p className="price newPrice">${category.price}</p>
+									<p className="price oldPrice">${category.oldPrice}</p>
+								</div>
+							</div>
+						</div>
+					))}
+				</div>
+				<div className="category__pagination">
+					<IconButton className="button">
+						<ArrowBackIosOutlined className="arrow" />
+					</IconButton>
+					<div className="arrow-separate"></div>
+					<IconButton className="button">
+						<ArrowForwardIosOutlined className="arrow" />
+					</IconButton>
 				</div>
 			</div>
 		</div>

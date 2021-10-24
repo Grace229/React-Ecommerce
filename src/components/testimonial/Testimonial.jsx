@@ -1,7 +1,7 @@
 import React from "react";
 import Gallery from "./Gallery";
 import "./style.css";
-import image from "../../assets/circle.jpg";
+import image from "./../assets/circle.jpg";
 
 const Testimonial = () => {
 	return (

@@ -19,7 +19,7 @@ import * as GrIcons from "react-icons/gr";
 import "./footer.css";
 const Footer = () => {
 	return (
-		<div className="footer">
+		<div className="footer home">
 			<h4 className="footer__header">
 				<span>@FOLLOW US ON INSTAGRAM</span>
 			</h4>
