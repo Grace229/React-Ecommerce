@@ -1,17 +1,19 @@
 import React from 'react'
-import arrivals from './arrivals'
+import data from "./../assets/database/data";
 import Arrival from './Arrival'
 import "./arrival.css"
 
 const Arrivals = () => {
+	const { newArrivals } = data;
+
     return (
         <div className="arrivals">
             <div className="arrivals__header"><h2>New Arrivals</h2></div>
             <div className="arrivals__body">
-            {arrivals.map((arrival) => <Arrival
+            {newArrivals.map((arrival) => <Arrival
                 key={arrival.id}
-                image={arrival.icon}
-                name={arrival.title}
+                image={arrival.image}
+                name={arrival.name}
             />)}
             </div>
         </div>

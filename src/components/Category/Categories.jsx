@@ -1,21 +1,23 @@
-import React from 'react'
-import categories from './categories'
+import React from 'react';
+import data from './../assets/database/data';
 import Category from './Category'
 import "./category.css"
 import {ArrowBackIosOutlined, ArrowForwardIosOutlined} from '@material-ui/icons';
 import { IconButton } from '@material-ui/core';
 
 const Categories = () => {
+	const { topCategories } = data;
+
     return (
         <div className="categories">
             <div className="categories__header"><h2>Top Categories</h2></div>
             <div className="categories__body">
                 <div className="categories__products">
-                    {categories.map((category) => <Category
+                    {topCategories.map((category) => <Category
                         key={category.id} 
-                        image={category.icon}
-                        name={category.title}
-                        newPrice={category.newPrice}
+                        image={category.image}
+                        name={category.name}
+                        newPrice={category.price}
                         oldPrice={category.oldPrice}
                     />)}
                 </div>
