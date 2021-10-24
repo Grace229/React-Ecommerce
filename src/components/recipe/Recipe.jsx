@@ -30,28 +30,14 @@ const Recipe = () => {
         <div>
             <div className="recipe__container">
         <div className="recipe__content">
-        
+        {data.map((post) =>
             <div className="recipe__card">
-
-                <div className="recipe__description">
-                
-                </div>
-<img src={P1} alt="" className="recipe__image1" />
+                {/* <div className="recipe__description">
+                    <h5>{post.name}</h5>
+                </div> */}
+<img src={post.image} alt="" className="recipe__image" />
             </div>
-            <div className="recipe__card">
-
-                <div className="recipe__description">
-                
-                </div>
-<img src={P2} alt="" className="recipe__image2" />
-            </div>
-            <div className="recipe__card">
-
-                <div className="recipe__description">
-                
-                </div>
-<img src={P3} alt="" className="recipe__image3" />
-            </div>
+             )}
         </div>
             </div>
         </div>
