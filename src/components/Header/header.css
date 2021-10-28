@@ -57,6 +57,11 @@
     font-family: 'Merriweather Sans', sans-serif;
     cursor: pointer;
 }
+
+.logo, .cart {
+    text-decoration: none;
+    color: white;
+}
 .header2__middle{
     display: flex;
     justify-content: center;
