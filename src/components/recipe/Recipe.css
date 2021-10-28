@@ -5,6 +5,7 @@
 }
 .recipe__content{
     background: url('./../../assets/bg.png');
+/*     background: url('../assets/bg.png'); */
     background-repeat: no-repeat;
     background-position: center;
     object-fit: cover;
